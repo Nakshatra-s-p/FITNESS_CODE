@@ -14,7 +14,7 @@ function App() {
 
       <Navbar />
       
-      <Routes>
+      <Routes >
 
         <Route path="/" element={<Home />} />
         <Route path="/bodyPart/:id" element={<BodyPartsCategory />} />
